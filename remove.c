@@ -17,6 +17,7 @@ c=getchar();
 */ 
 
 char c; 
+fp=fopen("c:\\test.txt", "r");
 
 while ((c=getchar()) != EOF) { 
 
@@ -25,6 +26,8 @@ if (!ispunc(c))
 printf("%c",c); 
 
 } 
+
+int fclose(FILE *a_file);
 
 return 0;
 
