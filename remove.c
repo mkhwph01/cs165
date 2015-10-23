@@ -1,4 +1,4 @@
-#include "strip.h"
+#include <strip.h>
 int main(int argc, char* argv[]) {
 
 /* char c; 
