@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <strip.h>
+
 int ispunc(char c) { 
 
 if (c >= 'A' && c <= 'Z'){
