@@ -1,6 +1,8 @@
 int ispunc(char c) { 
 
-if (c >= 'A' && c <= 'Z') 
+if (c >= 'A' && c <= 'Z'){
+  c=(tolower(c));
+} 
 
 if (c >= 'a' && c <= 'z') 
 
