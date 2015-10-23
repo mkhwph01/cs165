@@ -1,36 +1,16 @@
 #include <stdio.h>
 int main(int argc, char* argv[]) {
 
-/*char c; 
+   char str1[20], str2[30];
 
-c = getchar(); 
+   printf("Enter name: ");
+   scanf("%s", &str1);
 
-while (c != EOF) { 
+   printf("Enter your website name: ");
+   scanf("%s", &str2);
 
-if (!ispunc(c)) 
-
-printf("%c",c); 
-
-c=getchar(); 
-
-}
-*/
-
-
-char c; 
-
-c=getchar();
-
-while ((c=getchar()) != EOF) { 
-
-if (!ispunc(c)) 
-
-printf("%c",c); 
-
-c=getchar();
-
-} 
-
-return 0;
-
+   printf("Entered Name: %s\n", str1);
+   printf("Entered Website:%s", str2);
+   
+   return(0);
 }
