@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "strip.h"
 int main(int argc, char* argv[]) {
 
